@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gradedata [
+  <!ELEMENT gradedata (student+)>
+  
+  <!ELEMENT student (id,name,grades)>
+  
+  <!ELEMENT id (#PCDATA)>
+  <!ELEMENT name (last,first,middle_initial)>
+  <!ELEMENT last (#PCDATA)>
+  <!ELEMENT first (#PCDATA)>
+  <!ELEMENT middle_initial (#PCDATA)>
+  
+  <!ELEMENT grades (math,english,it)>
+  <!ELEMENT math (test1, test2)>
+  <!ELEMENT test1 (#PCDATA)>
+  <!ELEMENT test2 (#PCDATA)>
+  <!ELEMENT english (essay1, essay2)>
+  <!ELEMENT essay1 (#PCDATA)>
+  <!ELEMENT essay2 (#PCDATA)>
+  <!ELEMENT it (activity1, test3, essay3)>
+  <!ELEMENT activity1 (#PCDATA)>
+  <!ELEMENT test3 (#PCDATA)>
+  <!ELEMENT essay3 (#PCDATA)>
+  
+  ]>
+  
+  <gradedata>
+ 
+  <student>
+    <id>16430122-1521</id>
+    <name>
+      <last>Pace</last>
+      <first>Camden</first>
+      <middle_initial>G</middle_initial>
+    </name>
+    <grades>
+      <math>
+        <test1>54%</test1>
+        <test2>63%</test2>
+      </math>
+      <english>
+        <essay1>C+</essay1>
+        <essay2>B+</essay2>
+      </english>
+      <it>
+        <activity1>Pass</activity1>
+        <test3>32%</test3>
+      <essay3>C+</essay3>
+      </it>
+    </grades>
+  </student>
+ 
+  <student>
+    <id>16470212-9851</id>
+    <name>
+      <last>Weber</last>
+      <first>Lucy</first>
+      <middle_initial>X</middle_initial>
+    </name>
+    <grades>
+      <math>
+        <test1>32%</test1>
+        <test2>41%</test2>
+      </math>
+      <english>
+        <essay1>C-</essay1>
+        <essay2>C-</essay2>
+      </english>
+      <it>
+        <activity1>Fail</activity1>
+        <test3>73%</test3>
+        <essay3>D+</essay3>
+      </it>
+    </grades>
+  </student>
+ 
+  <student>
+    <id>16060213-9990</id>
+    <name>
+      <last>Branch</last>
+      <first>Caesar</first>
+      <middle_initial>A</middle_initial>
+    </name>
+    <grades>
+      <math>
+        <test1>73%</test1>
+        <test2>81%</test2>
+      </math>
+      <english>
+        <essay1>C-</essay1>
+        <essay2>C+</essay2>
+      </english>
+      <it>
+        <activity1>Pass</activity1>
+        <test3>63%</test3>
+        <essay3>B+</essay3>
+      </it>
+    </grades>
+  </student>
+ 
+  <student>
+    <id>16720905-9422</id>
+    <name>
+      <last>Beck</last>
+      <first>Sara</first>
+      <middle_initial>K</middle_initial>
+    </name>
+    <grades>
+      <math>
+        <test1>66%</test1>
+        <test2>57%</test2>
+      </math>
+      <english>
+        <essay1>C-</essay1>
+        <essay2>D+</essay2>
+      </english>
+      <it>
+        <activity1>Pass</activity1>
+        <test3>41%</test3>
+        <essay3>C-</essay3>
+      </it>
+    </grades>
+  </student>
+ 
+  <student>
+    <id>16471011-5884</id>
+    <name>
+      <last>Valenzuela</last>
+      <first>Daphne</first>
+      <middle_initial>E</middle_initial>
+    </name>
+    <grades>
+      <math>
+        <test1>43%</test1>
+        <test2>45%</test2>
+      </math>
+      <english>
+        <essay1>B+</essay1>
+        <essay2>A-</essay2>
+      </english>
+      <it>
+        <activity1>Fail</activity1>
+        <test3>63%</test3>
+        <essay3>C-</essay3>
+      </it>
+    </grades>
+  </student>
+ 
+</gradedata>
+  

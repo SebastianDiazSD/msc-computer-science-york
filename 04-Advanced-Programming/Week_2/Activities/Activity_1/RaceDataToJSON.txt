@@ -1,0 +1,51 @@
+{
+  "races": [
+    {
+      "id": "race_1",
+      "type": "Flat",
+      "weather": "Warm",
+      "results": [
+        { "horse": "Birthday List", "age": 2, "position": null, "dnf_reason": "N/P" },
+        { "horse": "Goodtime",      "age": 3, "position": 2,    "dnf_reason": null },
+        { "horse": "Black Jug",     "age": 5, "position": 9,    "dnf_reason": null },
+        { "horse": "Plucky Pedro",  "age": 6, "position": null, "dnf_reason": "N/R" },
+        { "horse": "Querty",        "age": 3, "position": 4,    "dnf_reason": null }
+      ]
+    },
+    {
+      "id": "race_2",
+      "type": "Flat",
+      "weather": "Wet",
+      "results": [
+        { "horse": "Birthday List", "age": 2, "position": 2,    "dnf_reason": null },
+        { "horse": "Goodtime",      "age": 3, "position": 1,    "dnf_reason": null },
+        { "horse": "Black Jug",     "age": 5, "position": null, "dnf_reason": "N/R" },
+        { "horse": "Plucky Pedro",  "age": 6, "position": null, "dnf_reason": "N/P" },
+        { "horse": "Querty",        "age": 3, "position": 3,    "dnf_reason": null }
+      ]
+    },
+    {
+      "id": "race_3",
+      "type": "Hurdle",
+      "weather": "Cold",
+      "results": [
+        { "horse": "Birthday List", "age": 2, "position": 3,    "dnf_reason": null },
+        { "horse": "Goodtime",      "age": 3, "position": null, "dnf_reason": "N/R" },
+        { "horse": "Black Jug",     "age": 5, "position": null, "dnf_reason": "N/P" },
+        { "horse": "Plucky Pedro",  "age": 6, "position": 5,    "dnf_reason": null },
+        { "horse": "Querty",        "age": 3, "position": null, "dnf_reason": "N/P" }
+      ]
+    }
+  ],
+  "horses": [
+    { "name": "Birthday List", "age": 2 },
+    { "name": "Goodtime",      "age": 3 },
+    { "name": "Black Jug",     "age": 5 },
+    { "name": "Plucky Pedro",  "age": 6 },
+    { "name": "Querty",        "age": 3 }
+  ],
+  "legend": {
+    "N/R": "Non-Runner - horse did not start the race",
+    "N/P": "Not Placed - horse ran but did not finish in a placing position"
+  }
+}
